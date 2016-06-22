@@ -36,7 +36,7 @@ Installation
 
 .. Code:: bash
 
-  $ boilr template download {{ GithubReference }}
+  $ boilr template download {{ GithubReference }} {{ TemplateName }}
 
 Usage
 -----
