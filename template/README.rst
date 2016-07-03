@@ -37,6 +37,15 @@ Installation
 .. Code:: bash
 
   $ boilr template download {{ GithubReference }} {{ TemplateName }}
+  
+Updates
+-------
+
+I update these templates regularly. If you need to fetch the newer version, try this:
+
+.. Code:: bash
+
+  $ boilr template download {{ GithubReference }} {{ TemplateName }} -f 
 
 Usage
 -----
@@ -49,7 +58,7 @@ Swap `foo` and `bar` for your own values.
   $ cd foo
   $ git init
   $ git remote set-url origin git@github.com:foo/bar.git
-  $ boilr template use {{ TemplateName }}
+  $ boilr template use {{ TemplateName }} .
   $ git add .
   $ git commit -m "Initial Commit"
   $ git push
