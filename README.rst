@@ -36,7 +36,7 @@ Installation
 
 .. Code:: bash
 
-  $ boilr template download littlemanco/boilr-template
+  $ boilr template download littlemanco/boilr-template boilr-template
 
 Usage
 -----
