@@ -49,7 +49,7 @@ Swap `foo` and `bar` for your own values.
   $ cd foo
   $ git init
   $ git remote set-url origin git@github.com:foo/bar.git
-  $ boilr template use boilr-template
+  $ boilr template use boilr-template .
   $ git add .
   $ git commit -m "Initial Commit"
   $ git push
